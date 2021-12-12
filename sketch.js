@@ -79,6 +79,8 @@ function draw() {
 
    gameover.visible = false;
    restart.visible = false;
+    
+    var score = 20;
    
    if(zombie1Group.isTouching(SbulletGroup)){
     SbulletGroup.destroyEach(); 
